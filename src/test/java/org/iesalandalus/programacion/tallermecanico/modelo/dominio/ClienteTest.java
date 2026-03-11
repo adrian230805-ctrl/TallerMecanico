@@ -71,7 +71,7 @@ class ClienteTest {
 	}
 	
 	@Test
-	void constrctorClienteValidoCopiaClienteCorrectamente() {
+	void constructorClienteValidoCopiaClienteCorrectamente() {
 		Cliente clienteCopia = new Cliente(cliente);
 		assertEquals(cliente, clienteCopia);
 		assertNotSame(cliente, clienteCopia);
